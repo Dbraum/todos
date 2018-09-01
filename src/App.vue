@@ -1,21 +1,16 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <router-view class="view"></router-view>
-  </div>
+  <section id="app" class="app-main">
+    <div class="container is-fluid is-marginless app-content">
+      <transition
+        mode="out-in"
+        enter-active-class="fadeIn"
+        leave-active-class="fadeOut"
+        appear>
+        <router-view class="animated"></router-view>
+      </transition>
+    </div>
+  </section>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
-</script>
 
 <style>
 #app {
