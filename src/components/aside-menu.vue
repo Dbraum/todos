@@ -1,271 +1,28 @@
 <template>
   <aside class="sidebar menu">
-    <div>
-      <p class="menu-label has-text-weight-bold">
-      我的
+    <p class="menu-label has-text-weight-bold">
+      我的清单
     </p>
     <ul class="menu-list"
-        style="margin-bottom: 2.5rem;">
+        style="margin-bottom: 40px;">
       <li>
         <a href="#/documentation/start"
            class="">
-          <span class="menu-text">Start</span>
+          <span class="menu-text">今日</span>
         </a>
       </li>
       <li>
         <a href="#/documentation/customization"
            class="router-link-exact-active is-active">
-          <span class="menu-text">Customization</span>
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/constructor-options"
-           class="">
-          <span class="menu-text">Constructor options</span>
-        </a>
-      </li>
-    </ul>
-    </div>
-    <p class="menu-label has-text-weight-bold">
-      Layout
-    </p>
-    <ul class="menu-list"
-        style="margin-bottom: 2.5rem;">
-      <li>
-        <a href="#/documentation/layout"
-           class="">
-          <span class="menu-text">Layout &amp; elements</span>
-
-        </a>
-      </li>
-    </ul>
-    <p class="menu-label has-text-weight-bold">
-      UI components
-    </p>
-    <ul class="menu-list"
-        style="margin-bottom: 2.5rem;">
-      <li>
-        <a href="#/documentation/collapse"
-           class="">
-          <span class="menu-text">Collapse</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/dialog"
-           class="">
-          <span class="menu-text">Dialog</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/dropdown"
-           class="">
-          <span class="menu-text">Dropdown</span>
-
-        </a>
-      </li>
-      <li>
-        <a role="button">
-          <span class="icon chevron-icon is-small">
-            <i class="mdi mdi-chevron-right mdi-rotate-90"></i>
-          </span>
-          <span class="menu-text">Form controls</span>
-        </a>
-        <ul class="is-active">
-          <li>
-            <a href="#/documentation/autocomplete"
-               class="">
-              <span class="menu-text">Autocomplete</span>
-
-              <span class="tag is-info">
-                <span class="">Update</span>
-
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#/documentation/checkbox"
-               class="">
-              <span class="menu-text">Checkbox</span>
-
-              <span class="tag is-info">
-                <span class="">Update</span>
-
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#/documentation/datepicker"
-               class="">
-              <span class="menu-text">Datepicker</span>
-
-            </a>
-          </li>
-          <li>
-            <a href="#/documentation/field"
-               class="">
-              <span class="menu-text">Field</span>
-
-            </a>
-          </li>
-          <li>
-            <a href="#/documentation/input"
-               class="">
-              <span class="menu-text">Input</span>
-
-            </a>
-          </li>
-          <li>
-            <a href="#/documentation/radio"
-               class="">
-              <span class="menu-text">Radio</span>
-
-              <span class="tag is-info">
-                <span class="">Update</span>
-
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#/documentation/select"
-               class="">
-              <span class="menu-text">Select</span>
-
-            </a>
-          </li>
-          <li>
-            <a href="#/documentation/switch"
-               class="">
-              <span class="menu-text">Switch</span>
-
-            </a>
-          </li>
-          <li>
-            <a href="#/documentation/taginput"
-               class="">
-              <span class="menu-text">Taginput</span>
-
-              <span class="tag is-info">
-                <span class="">Update</span>
-
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#/documentation/timepicker"
-               class="">
-              <span class="menu-text">Timepicker</span>
-
-            </a>
-          </li>
-          <li>
-            <a href="#/documentation/upload"
-               class="">
-              <span class="menu-text">Upload</span>
-
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#/documentation/icon"
-           class="">
-          <span class="menu-text">Icon</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/loading"
-           class="">
-          <span class="menu-text">Loading</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/message"
-           class="">
-          <span class="menu-text">Message</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/modal"
-           class="">
-          <span class="menu-text">Modal</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/notification"
-           class="">
-          <span class="menu-text">Notification</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/pagination"
-           class="">
-          <span class="menu-text">Pagination</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/snackbar"
-           class="">
-          <span class="menu-text">Snackbar</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/table"
-           class="">
-          <span class="menu-text">Table</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/tabs"
-           class="">
-          <span class="menu-text">Tabs</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/tag"
-           class="">
-          <span class="menu-text">Tag</span>
-
-          <span class="tag is-info">
-            <span class="">Update</span>
-
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/toast"
-           class="">
-          <span class="menu-text">Toast</span>
-
-        </a>
-      </li>
-      <li>
-        <a href="#/documentation/tooltip"
-           class="">
-          <span class="menu-text">Tooltip</span>
-
+          <span class="menu-text">日志薄</span>
         </a>
       </li>
     </ul>
   </aside>
 </template>
 <script>
-import MenuItem from "./menu-item";
 export default {
   name: "aside-menu",
-  components: {
-    MenuItem
-  }
 };
 </script>
 <style>
